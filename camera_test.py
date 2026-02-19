@@ -1,4 +1,4 @@
-import cv2 
+import cv2      #show video for laptop in vs 
 cap = cv2.VideoCapture(0)  
 
 while True:     
