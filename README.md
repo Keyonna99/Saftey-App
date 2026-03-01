@@ -58,17 +58,17 @@ safesignal/
 
 ## 🚀 Installation & Usage
 
-1. Clone the repository:
-git clone https://github.com/Keyonna99/safesignal.git
+1. Link: https://keyonna99.github.io/Saftey-App/
+   ( Still in more Building Progress )
 
 
-2. Navigate into the project folder:
+3. Navigate into the project folder:
 cd safesignal
 
 
-3. Open `index.html` in your browser.
+4. Open `index.html` in your browser.
 
-4. Allow motion/orientation permissions if prompted.
+5. Allow motion/orientation permissions if prompted.
 
 ---
 
