@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SafeSignal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🛡️ SafeSignal</h1>
+    <p id="status">Monitoring surroundings...</p>
+
+    <h3>Movement Level</h3>
+<div class="meter">
+  <div id="movementBar"></div>
+</div>
+<p id="movementValue">0</p>
+
+<h3>Sensitivity</h3>
+<input type="range" id="sensitivitySlider" min="10" max="60" value="30">
+<p>Threshold: <span id="sensitivityValue">30</span></p>
+
+    <div id="warning" class="hidden"></div>
+
+    <button id="startBtn">Start Monitoring</button>
+    <button id="emergencyBtn" class="emergency">🚨 Emergency</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
